@@ -1,0 +1,5 @@
+load data
+infile 'opinie.csv'
+replace into table OPINIE
+fields terminated by ',' optionally enclosed by "'"
+(ID_OPINII,ID_KLIENTA,OCENA,DATA_WYSTAWIENIA "TO_DATE(:data_wystawienia,'DD-MM-YYYY')")

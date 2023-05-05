@@ -1,0 +1,5 @@
+load data
+infile 'uslugi.csv'
+replace into table USLUGI
+fields terminated by ',' optionally enclosed by "'"
+(ID_USLUGI,RODZAJ_USLUGI,CENA_USLUGI)

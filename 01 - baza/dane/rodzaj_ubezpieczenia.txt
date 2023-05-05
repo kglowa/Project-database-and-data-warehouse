@@ -1,0 +1,5 @@
+load data
+infile 'rodzaj_ubezpieczenia.csv'
+replace into table RODZAJ_UBEZPIECZENIA
+fields terminated by ',' optionally enclosed by "'"
+(ID_RODZAJ_UBEZP,PAKIET,RODZAJ_UBEZP)

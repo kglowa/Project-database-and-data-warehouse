@@ -1,0 +1,5 @@
+load data
+infile 'h_klienci.csv'
+replace into table H_KLIENCI
+fields terminated by ',' optionally enclosed by "'"
+(ID_KLIENTA,IMIE,NAZWISKO)

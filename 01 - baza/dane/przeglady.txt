@@ -1,0 +1,5 @@
+load data
+infile 'przeglady.csv'
+replace into table PRZEGLADY
+fields terminated by ',' optionally enclosed by "'"
+(ID_PRZEGLAD,ID_POJAZDU,DATA_PRZEGLADU "TO_DATE(:data_przegladu,'DD-MM-YYYY')",DATA_WAZNOSCI "TO_DATE(:data_waznosci,'DD-MM-YYYY')",KOSZT)

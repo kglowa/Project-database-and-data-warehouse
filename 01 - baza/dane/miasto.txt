@@ -1,0 +1,5 @@
+load data
+infile 'miasto.csv'
+replace into table MIASTO
+fields terminated by ',' optionally enclosed by "'"
+(ID_MIASTA,ID_WOJEWODZTWA,MIASTO)

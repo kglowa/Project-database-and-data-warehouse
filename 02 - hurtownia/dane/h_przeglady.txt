@@ -1,0 +1,5 @@
+load data
+infile 'h_przeglady.csv'
+replace into table H_PRZEGLADY
+fields terminated by ',' optionally enclosed by "'"
+(ID_PRZEGLADU, data_przegladu DATE "MM/DD/YYYY")

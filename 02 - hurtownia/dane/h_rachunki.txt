@@ -1,0 +1,5 @@
+load data
+infile 'h_rachunki.csv'
+replace into table H_RACHUNKI
+fields terminated by ',' optionally enclosed by "'"
+(ID_RACHUNKU,TYP)

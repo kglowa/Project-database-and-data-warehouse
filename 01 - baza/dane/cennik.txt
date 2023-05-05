@@ -1,0 +1,5 @@
+load data
+infile 'cennik.csv'
+replace into table CENNIK
+fields terminated by ',' optionally enclosed by "'"
+(ID_CENNIK,CENA_ZA_24H,KAUCJA)

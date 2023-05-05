@@ -1,0 +1,5 @@
+load data
+infile 'h_miasto.csv'
+replace into table H_MIASTO
+fields terminated by ',' optionally enclosed by "'"
+(ID_MIASTA,NAZWA)

@@ -1,0 +1,5 @@
+load data
+infile 'placowki.csv'
+replace into table PLACOWKI
+fields terminated by ',' optionally enclosed by "'"
+(ID_PLACOWKI,ID_MIASTA,ULICA,NUMER)

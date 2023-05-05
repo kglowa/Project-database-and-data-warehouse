@@ -1,0 +1,5 @@
+load data
+infile 'typ_platnosci.csv'
+replace into table TYP_PLATNOSCI
+fields terminated by ',' optionally enclosed by "'"
+(ID_TYPU,TYP_PLATNOSCI)

@@ -1,0 +1,5 @@
+load data
+infile 'klienci.csv'
+replace into table KLIENCI
+fields terminated by ',' optionally enclosed by "'"
+(ID_KLIENTA,ID_MIASTA,IMIE,NAZWISKO,PESEL,NUMER_TELEFONU,ADRES_EMAIL,ULICA,NUMER,NR_KARTY_KRED)

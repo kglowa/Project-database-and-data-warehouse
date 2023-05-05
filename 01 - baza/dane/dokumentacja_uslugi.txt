@@ -1,0 +1,5 @@
+load data
+infile 'dokumentacja_uslugi.csv'
+replace into table DOKUMENTACJA_USLUGI
+fields terminated by ',' optionally enclosed by "'"
+(ID_DOKUMENTACJI,ID_USLUGI)

@@ -1,0 +1,5 @@
+load data
+infile 'wojewodztwo.csv'
+replace into table WOJEWODZTWO
+fields terminated by ',' optionally enclosed by "'"
+(ID_WOJEWODZTWA,WOJEWODZTWO)

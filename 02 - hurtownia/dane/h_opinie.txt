@@ -1,0 +1,5 @@
+load data
+infile 'h_opinie.csv'
+replace into table H_OPINIE
+fields terminated by ',' optionally enclosed by "'"
+(ID_OPINII,data_wystawienia_opinii DATE "MM/DD/YYYY")

@@ -1,0 +1,5 @@
+load data
+infile 'h_pojazdy.csv'
+replace into table H_POJAZDY
+fields terminated by ',' TRAILING NULLCOLS
+(ID_POJAZDU,MODEL,MARKA)

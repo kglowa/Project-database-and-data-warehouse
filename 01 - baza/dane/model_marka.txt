@@ -1,0 +1,5 @@
+load data
+infile 'model_marka.csv'
+replace into table MODEL_MARKA
+fields terminated by ',' optionally enclosed by "'"
+(ID_MODEL,MARKA,MODEL)

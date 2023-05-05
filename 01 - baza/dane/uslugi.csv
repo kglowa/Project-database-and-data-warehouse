@@ -1,0 +1,100 @@
+1,wymiana oleju,80
+2,wymiana plynu chlodniczego,80
+3,wymiana filtra oleju ,80
+4,wymiana filtra kabinowego,80
+5,wymiana filtra powietrza,100
+6,wymiana filtra paliwa,100
+7,wymiana filtra klimatyzacji,100
+8,wymiana klockow hamulcowych,400
+9,wymiana tarczy hamulcowych ,450
+10,konserwacja podwioza,650
+11,zbieznosc kol,50
+12,wymiana opon,100
+13,przekladanie kol,40
+14,napelnanie kol azotem,150
+15,wymiana akumulatora,250
+16,regeneracja akumulatora,150
+17,wymiana plynu hamulcowego,150
+18,kontrola oleju,25
+19,kontrola plynu chlodniczego,25
+20,kontrola plynu hamulcowego,25
+21,kontrola stanu opon,25
+22,kontrola zawieszenia pojazdu,25
+23,kontrola amortyzatorow,25
+24,wymiana amortyzatorow,499
+25,kontrola akumulatora,25
+26,napelnianie klimatyzacji,329
+27,kontrola klimatyzacji,50
+28,wymiana przedniej szyby,250
+29,wymiana tylnej szyby ,250
+30,wymiana szyby bocznej,199
+31,aktualizacja oprogramowania,50
+32,usuwanie bledow oprogramowania,50
+33,wymiana wycieraczek przód,50
+34,wymiana wycieraczek ty³,50
+35,dezynfekcja samochodu,49
+36,pranie tapicerki ,99
+37,kontrola uk³adu napêdowego,25
+38,kontrola uk³adu wydechowego,25
+39,kontrola uk³adu kierowniczego ,25
+40,kontrola uk³adu wspomagania ,25
+41,kontrola uk³adu ch³odzenia,25
+42,kontrola uk³adu hamulcowego,25
+43,odgrzybianie ukladu nawiewu,60
+44,uzupelnienie oleju sprezarkowego,80
+45,diagnostyka komputerowa Pass Thruu,50
+46,montaz czujnika parkowania,70
+47,wymiana czujnika parkowania,50
+48,montaz systemow alarmowych,99
+49,kontrola systemow alarmowych,25
+50,montaz systemow nawigacji ,249
+51,kontrola systemow nawigacji,25
+52,montaz czujnika parkowania,70
+53,montaz haka holowniczego,50
+54,regeneracja filtra czastek stalych,80
+55,kontrola elektrycznego systemu napedowego,25
+56,wymiana rozrzadu,800
+57,kontrola rozrzadu,100
+58,mycie samochodu,20
+59,woskowanie samochodu,15
+60,kontrola ukladu przeniesienia napedu,50
+61,naprawa ukladu przeniesienia napedu,250
+62,kontrola sprzegla,50
+63,wymiana sprzegla,250
+64,kontrola pompy wody,50
+65,wymiana pompy wody,150
+66,kontrola termostatu,25
+67,wymiana termostatu,50
+68,kontrola ukladu paliwowego,20
+69,naprawa ukladu paliwowego,169
+70,kontrola swiec ,15
+71,wymiana swiec,25
+72,polerowanie lakieru,50
+73,nalozenie powloki ceramicznej,200
+74,nalozenie foli ochornnej,199
+75,usuwanie wgniecen karoserii ,300
+76,lakierowanie elementu,450
+77,ozonowanie klimatyzacji,99
+78,polerowanie szyb,50
+79,zabezpieczenie szyb,50
+80,nalozenie powloki kwarcowej ,199
+81,konserwacja opon,25
+82,konserwacja felg,25
+83,mycie opon,25
+84,mycie felg,11
+85,konserwacja tapicerki,25
+86,konscerwacja kokpitu,24
+87,wymiana zarowki,10
+88,ustawienie oswietlenia,10
+89,polerowanie lamp ,40
+90,wymiana lamp ,150
+91,przeglad stanu samochodu,25
+92,wymiana elementow zawieszenia,63
+93,regeneracja turbosprezarki,250
+94,wymiana turbosprezarki,499
+95,kontrola turbosprezarki,50
+96,mycie silnika,25
+97,uzupelnienie plynu do spryskiwaczy ,15
+98,kontrola alternatora,15
+99,wymiana alternatora,67
+100,regeneracja alternatora,55

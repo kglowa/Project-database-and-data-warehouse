@@ -1,0 +1,5 @@
+load data
+infile 'ubezpieczenia.csv'
+replace into table UBEZPIECZENIA
+fields terminated by ',' optionally enclosed by "'"
+(ID_UBEZPIECZENIA,ID_POJAZDU,ID_RODZAJ_UBEZP,DATA_POCZATKU "TO_DATE(:data_poczatku,'DD-MM-YYYY')",DATA_KONCA "TO_DATE(:data_konca,'DD-MM-YYYY')",SKLADKA_ROCZNA)

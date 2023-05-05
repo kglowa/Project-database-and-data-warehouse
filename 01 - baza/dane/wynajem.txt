@@ -1,0 +1,5 @@
+load data
+infile 'wynajem.csv'
+replace into table WYNAJEM
+fields terminated by ',' optionally enclosed by "'"
+(ID_WYNAJMU,ID_POJAZDU,ID_KLIENTA,ID_PRACOWNIKA,DATA_WYP "TO_DATE(:data_wyp,'DD-MM-YYYY')",DATA_ZWROTU "TO_DATE(:data_zwrotu,'DD-MM-YYYY')")

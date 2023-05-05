@@ -1,0 +1,5 @@
+load data
+infile 'grafik.csv'
+append into table GRAFIK
+fields terminated by ',' optionally enclosed by "'"
+(ID_GRAFIK,ID_PRACOWNIKA,DATA_GRAFIK "TO_DATE(:data_grafik,'DD-MM-YYYY')",ZMIANA)

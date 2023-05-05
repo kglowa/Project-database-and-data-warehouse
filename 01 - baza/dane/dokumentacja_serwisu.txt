@@ -1,0 +1,5 @@
+load data
+infile 'dokumentacja_serwisu.csv'
+replace into table DOKUMENTACJA_SERWISU
+fields terminated by ',' optionally enclosed by "'"
+(ID_DOKUMENTACJI,ID_POJAZDU,DATA_PRZYJECIA "TO_DATE(:data_przyjecia,'DD-MM-YYYY')",DATA_UKONCZENIA "TO_DATE(:data_ukonczenia,'DD-MM-YYYY')")

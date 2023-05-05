@@ -1,0 +1,5 @@
+load data
+infile 'pracownicy.csv'
+append into table PRACOWNICY
+fields terminated by ',' optionally enclosed by "'"
+(ID_PRACOWNIKA,ID_PLACOWKI,IMIE,NAZWISKO,STANOWISKO,PENSJA,NUMER_TELEFONU,DATA_ZATRUDNIENIA "TO_DATE(:data_zatrudnienia,'DD-MM-YYYY')")
